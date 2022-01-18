@@ -1,0 +1,21 @@
+{
+	"cSpell.ignoreWords": [
+		"chatterjee",
+		"chitkara",
+		"hansa",
+		"himachal",
+		"mondal",
+		"nerko",
+		"pradesh",
+		"rohan",
+		"rudranarayan",
+		"theweek",
+		"yeon"
+	],
+	"files.autoSaveDelay": 500,
+	"editor.defaultFormatter": "esbenp.prettier-vscode",
+	"liveServer.settings.CustomBrowser": "chrome",
+	"html.format.templating": true,
+	"files.autoSave": "afterDelay",
+	"editor.fontFamily": "'Cascadia Code'"
+}

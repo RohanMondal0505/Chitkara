@@ -1,0 +1,97 @@
+.form-elements {
+    margin-top: 10px;
+    padding: 10px 20px;
+    height: 50% !important;
+}
+
+.form-elements label {
+    font-size: 16px !important;
+    color: black !important;
+    font-weight: 400 !important;
+}
+
+.form-elements .username-field-forgot,
+.verification-field-forgot {
+    display: flex;
+    flex-direction: column;
+    margin: 5px 0 8px;
+}
+
+.btn {
+    width: 100%;
+    height: 35px;
+}
+
+#username,
+#verification {
+    width: 45%;
+    height: 100%;
+    float: left;
+    font-size: 16px;
+    background: #fbfbfb;
+    border: 2px solid #e5e5e5;
+    outline: none;
+}
+
+#username-send,
+#verification-send {
+    height: 100%;
+    width: 50%;
+    float: right;
+    background: #cb1a12;
+    color: #fff;
+    font-weight: bold;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    transition: background 0.2s;
+}
+
+#username-send:hover,
+#verification-send:hover {
+    background: rgb(165, 2, 2);
+}
+
+.form-elements .back {
+    margin-top: 30px;
+    text-align: center;
+
+}
+
+.form-elements .back a {
+    text-decoration: none;
+    font-weight: bold;
+    color: #bb0000;
+    font-size: 14px;
+    letter-spacing: 1px;
+}
+
+.form-elements .back a:hover {
+    text-decoration-line: underline;
+    font-size: 12px;
+}
+
+@media (max-width:365px) {
+    .container-items{
+        height: 400px;
+    }
+    .container-items .form-body{
+        margin-top: -50px;
+    }
+    
+    .btn{
+        height: 80px;
+    }
+    #username,
+    #verification {
+        width: 100%;
+        height: 35px;
+        margin-bottom: 10px;
+    }
+    
+    #username-send,
+    #verification-send {
+        height: 35px;
+        width: 100%;
+    }
+}
